@@ -16,6 +16,7 @@ h1{
 
 #wheel{
 	height: 600px;
+	transition: 1s ease-in-out;
 }
 
 .window,

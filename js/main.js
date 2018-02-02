@@ -185,6 +185,11 @@ function rotate(){
 			document.getElementById("wheel").style.transform = "rotate(-330deg)";		
 		}
 	}
+	for(let i = 0; i < 12; i++){
+		if(nameArray[0].name == userInput){
+			document.getElementById("wheel").style.transform = "rotate(-360deg)";		
+		}
+	}
 }
 
 
