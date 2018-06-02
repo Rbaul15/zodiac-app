@@ -1,17 +1,18 @@
 body{
-	background-color: tomato;
+	background-image: url("../img/gameshow.jpg");
+	background-size: cover;
 }
 
 h1{
 	font-family: 'Pacifico', cursive;
-	color: white;
+	color: #FFD700;
 }
 
 #runSearch{
-	color: white;
+	color: #191970 ;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    background: lightblue;
+    background: #66CDAA;
 }
 
 #wheel{
@@ -26,10 +27,16 @@ form{
 }
 
 #displayBox{
-	color: white;
-	/*background-color: rgba(0, 0, 0, 0.5);*/
+	color: #66CDAA;
+	background-color: rgba(0, 0, 0, 0.5);
 	line-height: 20px;
 	padding-left: 150px;
 	padding-right: 150px;
+	padding-top: 20px;
+	height: 200px;
+	border: 1px solid #07c;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #07c;
+	font-family: 'Patua One', cursive;
 }
 
